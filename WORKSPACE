@@ -44,9 +44,9 @@ protobuf_deps()
 
 http_archive(
     name = "io_grpc_grpc_java",
-    sha256 = "9618a6f4ec0f2bdb77d9b6e01865af9796f370e63e1352210798bacfc99ccdac",
-    strip_prefix = "grpc-java-1.23.0",
-    urls = ["https://github.com/grpc/grpc-java/archive/v1.23.0.tar.gz"],
+    sha256 = "5936550a32ebbb0761be7f061497d7627e66e8e4e25f30eca81013cec48a9f93",
+    strip_prefix = "grpc-java-1.84.2",
+    urls = ["https://github.com/grpc/grpc-java/archive/v1.84.2.tar.gz"],
 )
 
 load("@io_grpc_grpc_java//:repositories.bzl", "grpc_java_repositories")
